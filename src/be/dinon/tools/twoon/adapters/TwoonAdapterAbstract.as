@@ -24,6 +24,8 @@ package be.dinon.tools.twoon.adapters
 		public var easing:TwoonEasingType = TwoonEasingType.CUBIC;
 		public var movement:TwoonEasingMovement = TwoonEasingMovement.OUT;
 		public var delay:int;
+		protected var updateHandler:Function;
+		protected var updateParams:Array;
 		
 		public function TwoonAdapterAbstract(self:TwoonAdapterAbstract)
 		{
@@ -89,6 +91,12 @@ package be.dinon.tools.twoon.adapters
 			delay = milliSeconds;
 		}
 		
+		public function setUpdateHandler(handler:Function, params:Array):void
+		{
+			updateHandler = handler;
+			updateParams = params
+		}	
+			
 		
 		// TO OVERRIDE
 		public function start():void 

@@ -56,6 +56,12 @@ package be.dinon.tools.twoon
 			adapter.setDelay(milliseconds);
 			return this;
 		}
+		
+		public function onUpdate(handler:Function, ...args):Twoon
+		{
+			adapter.setUpdateHandler(handler, args);
+			return this;
+		}
 
 		public function start():Twoon
 		{

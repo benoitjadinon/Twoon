@@ -19,6 +19,8 @@ package be.dinon.tools.twoon.adapters
 		
 		function setDelay(milliseconds:int):void;
 		
+		function setUpdateHandler(handler:Function, params:Array):void;
+		
 		function start():void;
 	}
 }

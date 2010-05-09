@@ -1,4 +1,6 @@
 
+- la génération des objects dans les adapters devrait etre un for each sur les properties available
+
 + events + chaining
  -> callbacks could be launching next twoons ? .onEndStart(new Twoon()).Start(); // chaining 
 
