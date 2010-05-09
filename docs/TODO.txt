@@ -1,0 +1,76 @@
+
++ events + chaining
+ -> callbacks could be launching next twoons ? .onEndStart(new Twoon()).Start(); // chaining 
+
++ eaze apply() not working ?
+
++ tween to frame label/frame number (see eaze)
+
++ remove the need for start() (as in Eaze)
+
++ custom properties ? (not in enums)
+
++ autostart ? (for static init and missing start())
+
++ embed the simplest/smallest engine by default ?
+
+//+ "scale" property, that would change both "scaleX" and "scaleY"
+
+//+ put adapters in own library(ies ?)
+
+//+ easetype dans et par value ? (*)
+
+//+ value(TwoonProperty.TRANSPARENCY & value(EazeProperty.FRAME
+//  -> type check dans value : if (twoonproperty is not a real twoonprop) throw ?
+
+//+ (*) multi properties
+//  .value().value() -> push 2 times into values array full of valuesVOs (semi private type)
+
+//+ checkout chainable tween libs !
+Actuate http://code.google.com/p/actuate/
+Eaze http://code.google.com/p/eaze-tween/
+  eaze().to() ? static constructor ?
+
++ more adapters
+Desuade Motion Package - A breakthrough AS3 library that combines keyframe-sequencing, physics, and tweening.
+http://desuade.com/dmp
+TweenLite
+http://blog.greensock.com/tweenliteas3/
+TweenMax
+http://blog.greensock.com/tweenmaxas3/
+Tweener - A class for creating tweens in actionscript 2 and 3 - because there�s infinity between 0 and 1.
+http://code.google.com/p/tweener/
+Tweensy
+http://www.lostinactionscript.com/blog/index.php/2008/08/31/as3-tween-engine-tweensy-preview/
+TweensyZero - A light weight version of Tweensy.
+http://code.google.com/p/tweensy/wiki/TweensyZero
+GoASAP (ActionScript Animation Platform)
+http://www.goasap.org/
+AS3 Animation System 2.0
+http://www.boostworthy.com/blog/?p=170
+Animation Package
+http://www.alex-uhlmann.de/flash/animationpackage/
+KitchenSync - KitchenSync is an ActionScript 3.0 library for sequencing animations and other time-based actions.
+http://code.google.com/p/kitchensynclib/
+Gyro - A tween and animation library for ActionScript 3.
+http://code.google.com/p/gyro-actionscript-animation/
+gTween
+http://www.gskinner.com/blog/archives/2008/08/gtween_a_new_tw.html
+HydroTween + HydroSequence (based on GoASAP)
+http://blog.hydrotik.com/2008/07/19/hydrotween-hydrosequence-rev32/
+AS3 Easing
+http://www.uza.lt/codex/as3-easing/
+Twease
+http://code.google.com/p/twease/
+BetweenAS3
+http://www.be-interactive.org/works/20090428/slide_betweenas3.html
+ByteTween - Light weight engine (focusing in low Kb increase and not being a do-it-all engine). 
+http://code.google.com/p/thelaboratory-tween/
+Eaze - Blazing fast, chainable and compact Flash AS3 tweening library
+http://code.google.com/p/eaze-tween/
+Actuate - Tween library for Actionscript 3
+http://code.google.com/p/actuate/
+grape-as3 - Path-based ActionScript 3 animation library
+http://blog.generalrelativity.org/actionscript-30/grape-animation-library/
+RabbitTween - A new fast and easy transition/tween engine for Flash AS3
+http://blog.open-design.be/2009/09/26/rabbittween-new-fast-and-easy-transitiontween-engine-for-flash-as3/
