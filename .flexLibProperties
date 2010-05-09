@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="be.dinon.tools.twoon.adapters.TwoonAdapterAbstract"/>
+    <classEntry path="be.dinon.tools.twoon.enums.TwoonEasingType"/>
+    <classEntry path="be.dinon.tools.twoon.enums.TwoonEasingMovement"/>
+    <classEntry path="be.dinon.tools.twoon.errors.TwoonError"/>
+    <classEntry path="be.dinon.tools.twoon.vos.TwoonValue"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
