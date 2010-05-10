@@ -21,6 +21,8 @@ package be.dinon.tools.twoon.adapters
 		
 		function setUpdateHandler(handler:Function, params:Array):void;
 		
+		function setCompleteHandler(handler:Function, params:Array):void;
+		
 		function start():void;
 	}
 }

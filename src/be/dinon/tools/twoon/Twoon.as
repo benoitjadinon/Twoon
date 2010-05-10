@@ -62,7 +62,13 @@ package be.dinon.tools.twoon
 			adapter.setUpdateHandler(handler, args);
 			return this;
 		}
-
+		
+		public function onComplete(handler:Function, ...args):Twoon
+		{
+			adapter.setCompleteHandler(handler, args);
+			return this;
+		}
+		
 		public function start():Twoon
 		{
 			adapter.start();

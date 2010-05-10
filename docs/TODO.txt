@@ -1,5 +1,14 @@
 
-- la génération des objects dans les adapters devrait etre un for each sur les properties available
+- BUG : eaze oncomplete does fire too early (right after the delay ?) could be a bug in ezae beta, verify before
+
+- BUG : eaze does not apply the from values
+
+- protected ? Abstract.setEase(...) and others, throws not impl error if not overridden
+  -> if this.throwsErrors : throw, else trace()
+  
+- ? onUpdate/complete should send an event, with target beeing the twoon instance(, slower ? but cool to get target) 
+
+- objects generation in adapters should be a for each on available properties ?
 
 + events + chaining
  -> callbacks could be launching next twoons ? .onEndStart(new Twoon()).Start(); // chaining 

@@ -26,6 +26,8 @@ package be.dinon.tools.twoon.adapters
 		public var delay:int;
 		protected var updateHandler:Function;
 		protected var updateParams:Array;
+		protected var completeHandler:Function;
+		protected var completeParams:Array;
 		
 		public function TwoonAdapterAbstract(self:TwoonAdapterAbstract)
 		{
@@ -96,7 +98,13 @@ package be.dinon.tools.twoon.adapters
 			updateHandler = handler;
 			updateParams = params
 		}	
-			
+		
+		public function setCompleteHandler(handler:Function, params:Array):void
+		{
+			completeHandler = handler;
+			completeParams = params
+		}	
+		
 		
 		// TO OVERRIDE
 		public function start():void 
